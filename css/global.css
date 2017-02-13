@@ -1,0 +1,199 @@
+* { 
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+} 
+img {
+    width: 100%;
+}
+
+header {
+    background: linear-gradient(rgba(47,117,179,0.75), rgba(47,117,179,0.75)), url(https://unsplash.it/1000?image=1053);
+    background-size: cover;
+}
+header .col-logo {
+    padding-top: 20px;
+}
+
+header .col-logo img {
+    width:  35px;
+    margin-right: 5px;
+}
+header .col-logo span {
+    font-size: 15px;
+    color: rgb(8,38,66);
+}
+
+header .col-nav {
+    padding: 20px;
+}
+
+header .col-nav a {
+    color: rgb(8,38,66);
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+header .col-nav a:last-child {
+    margin: 0;
+}
+header .col-nav i {
+    margin-left: 5px;
+}
+header .col-brand{
+    padding: 100px 0;
+    text-align: center;
+}
+
+header .col-brand h1 {
+    color: white;
+    font-size: 85px;
+    margin: 0;
+}
+
+header .col-brand span {
+    font-weight: bold;
+    color: rgb(8,38,66);
+    font-family: 'Open Sans', sans-serif;
+}
+
+main p {
+    line-height: 1.75;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main a {
+    color: gray;
+}
+
+main a:hover {
+    color: rgb(47,117,179);
+}
+
+main h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+main .img-author {
+    width: 20px;
+}
+
+main .subhead .text-muted {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+}
+
+main .col-sm-3 span {
+     font-family: 'Open Sans', sans-serif;
+}
+
+main .button {
+    color: white;
+    margin-right: 10px;
+}
+main .button-icon {
+    background: #5E686f;
+    padding: 5px 7px;
+    display: inline-block;
+}
+
+main .button-blue .button-icon {
+    background: #053353;
+}
+
+main .button-label {
+    margin-left: -4px;    
+    padding: 5px 7px;
+    background: #A2B3C0;
+    display: inline-block;    
+}
+main .button-blue .button-label {
+    background: #016BB5;
+}
+
+main .img-author-lg {
+    width: 100px;
+    background: #016BB5; 
+    opacity: .4;
+}
+
+main .text-muted {
+    font-size: 12px;
+}
+
+
+footer h2 {
+    font-size: 50px;
+}
+footer .posts {
+    display: flex;
+}
+
+footer .posts h3 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+footer .post {
+    flex: 3;
+    height: 25vw;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+footer #post1 {
+    background-image: linear-gradient(rgba(47,117,179,0.75), rgba(47,117,179,0.75)), url(https://unsplash.it/600/600?random);
+    background-size: cover;
+
+}
+footer #post1:hover {
+    background-image: url(https://unsplash.it/600/600?random);
+    color: white;    
+}
+
+
+footer #post2 {
+    background-image: linear-gradient(rgba(47,117,179,0.75), rgba(47,117,179,0.75)), url(https://unsplash.it/600/600?random);
+    background-size: cover;
+}
+footer #post2:hover {
+    background-image: url(https://unsplash.it/600/600?random);
+    color: white;    
+}
+
+
+footer #post3 {
+    background-image: linear-gradient(rgba(47,117,179,0.75), rgba(47,117,179,0.75)), url(https://unsplash.it/600/600?random);
+    background-size: cover;
+}
+footer #post3:hover {
+    background-image: url(https://unsplash.it/600/600?random);
+    color: white;    
+}
+
+footer #post4 {
+    background-image: linear-gradient(rgba(47,117,179,0.75), rgba(47,117,179,0.75)), url(https://unsplash.it/600/600?random);
+    background-size: cover;
+}
+footer #post4:hover {
+    background-image: url(https://unsplash.it/600/600?random);
+    color: white;
+}
+
+.copyright {
+    background: #053353;
+    color: white;
+    padding: 20px;
+}
+
+.copyright a {
+    color: azure;
+    margin: 0 20px;
+}
+
+.copyright a:lastchild {
+    margin-right: 0;
+}
